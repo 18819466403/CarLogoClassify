@@ -1,0 +1,56 @@
+<annotation>
+    <folder>VOC2007</folder>
+    <filename>005146.jpg</filename>
+    <source>
+        <database>The CCF2017 Database</database>
+        <annotation>PASCAL CCF2017</annotation>
+        <image>flickr</image>
+        <flickrid>000000000</flickrid>
+    </source>
+    <owner>
+        <flickrid>?</flickrid>
+        <name>?</name>
+    </owner>
+    <size>
+        <width>0</width>
+        <height>0</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>0022</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>87</xmin>
+            <ymin>178</ymin>
+            <xmax>111</xmax>
+            <ymax>202</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>0024</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>378</xmin>
+            <ymin>137</ymin>
+            <xmax>421</xmax>
+            <ymax>186</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>0024</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>35</xmin>
+            <ymin>283</ymin>
+            <xmax>101</xmax>
+            <ymax>358</ymax>
+        </bndbox>
+    </object>
+</annotation>

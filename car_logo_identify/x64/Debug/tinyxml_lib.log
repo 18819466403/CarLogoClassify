@@ -1,0 +1,8 @@
+﻿  tinystr.cpp
+  tinyxml.cpp
+tinyxml.cpp(670): warning C4458: “value”的声明隐藏了类成员
+  d:\tinyxml-git\tinyxml.h(761): note: 参见“TiXmlNode::value”的声明
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  正在生成代码...
+  tinyxml_lib.vcxproj -> D:\tinyxml-git\x64\Debug\tinyxml.lib

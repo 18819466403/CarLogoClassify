@@ -1,0 +1,25 @@
+[
+  {
+    "image_id": "500_001E_fq89Iud6_rogMsD1K.jpg",
+    "type": "A",
+    "items": []
+  },
+  {
+    "image_id": "500_004F_3eo8pZaG_0DQWbOCG.jpg",
+    "type": "A",
+    "items": []
+  },
+  {
+    "image_id": "500_00CO_eYEwzzvk_mzt0g9LM.jpg",
+    "type": "A",
+    "items": [
+      {
+        "label_id": "0016",
+        "bbox": [ 233, 159, 269, 188 ],
+        "score": 0.980133
+      }
+	  
+	  
+    ]
+  },
+ ]

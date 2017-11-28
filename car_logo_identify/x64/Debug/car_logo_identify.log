@@ -1,0 +1,104 @@
+﻿xmltest.obj : error LNK2005: main 已经在 main.obj 中定义
+main.obj : error LNK2019: 无法解析的外部符号 "public: virtual __cdecl TiXmlNode::~TiXmlNode(void)" (??1TiXmlNode@@UEAA@XZ)，该符号在函数 "int `public: __cdecl TiXmlText::TiXmlText(char const *)'::`1'::dtor$0" (?dtor$0@?0???0TiXmlText@@QEAA@PEBD@Z@4HA) 中被引用
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "public: virtual __cdecl TiXmlNode::~TiXmlNode(void)" (??1TiXmlNode@@UEAA@XZ)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual __cdecl TiXmlNode::~TiXmlNode(void)" (??1TiXmlNode@@UEAA@XZ)
+main.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlNode * __cdecl TiXmlNode::LinkEndChild(class TiXmlNode *)" (?LinkEndChild@TiXmlNode@@QEAAPEAV1@PEAV1@@Z)，该符号在函数 "void __cdecl extract_train_json(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?extract_train_json@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "public: class TiXmlNode * __cdecl TiXmlNode::LinkEndChild(class TiXmlNode *)" (?LinkEndChild@TiXmlNode@@QEAAPEAV1@PEAV1@@Z)
+main.obj : error LNK2019: 无法解析的外部符号 "protected: __cdecl TiXmlNode::TiXmlNode(enum TiXmlNode::NodeType)" (??0TiXmlNode@@IEAA@W4NodeType@0@@Z)，该符号在函数 "public: __cdecl TiXmlText::TiXmlText(char const *)" (??0TiXmlText@@QEAA@PEBD@Z) 中被引用
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "protected: __cdecl TiXmlNode::TiXmlNode(enum TiXmlNode::NodeType)" (??0TiXmlNode@@IEAA@W4NodeType@0@@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "protected: __cdecl TiXmlNode::TiXmlNode(enum TiXmlNode::NodeType)" (??0TiXmlNode@@IEAA@W4NodeType@0@@Z)
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl TiXmlElement::TiXmlElement(char const *)" (??0TiXmlElement@@QEAA@PEBD@Z)，该符号在函数 "void __cdecl extract_train_json(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?extract_train_json@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl TiXmlElement::TiXmlElement(char const *)" (??0TiXmlElement@@QEAA@PEBD@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl TiXmlElement::TiXmlElement(char const *)" (??0TiXmlElement@@QEAA@PEBD@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl TiXmlText::Print(struct _iobuf *,int)const " (?Print@TiXmlText@@UEBAXPEAU_iobuf@@H@Z)
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl TiXmlText::Print(struct _iobuf *,int)const " (?Print@TiXmlText@@UEBAXPEAU_iobuf@@H@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl TiXmlText::Print(struct _iobuf *,int)const " (?Print@TiXmlText@@UEBAXPEAU_iobuf@@H@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlText::Accept(class TiXmlVisitor *)const " (?Accept@TiXmlText@@UEBA_NPEAVTiXmlVisitor@@@Z)
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlText::Accept(class TiXmlVisitor *)const " (?Accept@TiXmlText@@UEBA_NPEAVTiXmlVisitor@@@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlText::Accept(class TiXmlVisitor *)const " (?Accept@TiXmlText@@UEBA_NPEAVTiXmlVisitor@@@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class TiXmlNode * __cdecl TiXmlText::Clone(void)const " (?Clone@TiXmlText@@MEBAPEAVTiXmlNode@@XZ)
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class TiXmlNode * __cdecl TiXmlText::Clone(void)const " (?Clone@TiXmlText@@MEBAPEAVTiXmlNode@@XZ)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class TiXmlNode * __cdecl TiXmlText::Clone(void)const " (?Clone@TiXmlText@@MEBAPEAVTiXmlNode@@XZ)
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl TiXmlDocument::TiXmlDocument(void)" (??0TiXmlDocument@@QEAA@XZ)，该符号在函数 "void __cdecl extract_train_json(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?extract_train_json@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl TiXmlDocument::TiXmlDocument(void)" (??0TiXmlDocument@@QEAA@XZ)
+main.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl TiXmlDocument::SaveFile(char const *)const " (?SaveFile@TiXmlDocument@@QEBA_NPEBD@Z)，该符号在函数 "void __cdecl extract_train_json(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?extract_train_json@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: bool __cdecl TiXmlDocument::SaveFile(char const *)const " (?SaveFile@TiXmlDocument@@QEBA_NPEBD@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl TiXmlDocument::Print(struct _iobuf *,int)const " (?Print@TiXmlDocument@@UEBAXPEAU_iobuf@@H@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl TiXmlDocument::Print(struct _iobuf *,int)const " (?Print@TiXmlDocument@@UEBAXPEAU_iobuf@@H@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlDocument::Accept(class TiXmlVisitor *)const " (?Accept@TiXmlDocument@@UEBA_NPEAVTiXmlVisitor@@@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlDocument::Accept(class TiXmlVisitor *)const " (?Accept@TiXmlDocument@@UEBA_NPEAVTiXmlVisitor@@@Z)
+main.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class TiXmlNode * __cdecl TiXmlDocument::Clone(void)const " (?Clone@TiXmlDocument@@MEBAPEAVTiXmlNode@@XZ)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "protected: virtual class TiXmlNode * __cdecl TiXmlDocument::Clone(void)const " (?Clone@TiXmlDocument@@MEBAPEAVTiXmlNode@@XZ)
+tinyxmlparser.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlDocument const * __cdecl TiXmlNode::GetDocument(void)const " (?GetDocument@TiXmlNode@@QEBAPEBVTiXmlDocument@@XZ)，该符号在函数 "public: class TiXmlDocument * __cdecl TiXmlNode::GetDocument(void)" (?GetDocument@TiXmlNode@@QEAAPEAVTiXmlDocument@@XZ) 中被引用
+tinyxmlparser.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl TiXmlAttribute::Print(struct _iobuf *,int,class TiXmlString *)const " (?Print@TiXmlAttribute@@QEBAXPEAU_iobuf@@HPEAVTiXmlString@@@Z)，该符号在函数 "public: virtual void __cdecl TiXmlAttribute::Print(struct _iobuf *,int)const " (?Print@TiXmlAttribute@@UEBAXPEAU_iobuf@@H@Z) 中被引用
+tinyxmlparser.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl TiXmlAttributeSet::Add(class TiXmlAttribute *)" (?Add@TiXmlAttributeSet@@QEAAXPEAVTiXmlAttribute@@@Z)，该符号在函数 "public: virtual char const * __cdecl TiXmlElement::Parse(char const *,class TiXmlParsingData *,enum TiXmlEncoding)" (?Parse@TiXmlElement@@UEAAPEBDPEBDPEAVTiXmlParsingData@@W4TiXmlEncoding@@@Z) 中被引用
+tinyxmlparser.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlAttribute * __cdecl TiXmlAttributeSet::Find(char const *)const " (?Find@TiXmlAttributeSet@@QEBAPEAVTiXmlAttribute@@PEBD@Z)，该符号在函数 "public: virtual char const * __cdecl TiXmlElement::Parse(char const *,class TiXmlParsingData *,enum TiXmlEncoding)" (?Parse@TiXmlElement@@UEAAPEBDPEBDPEAVTiXmlParsingData@@W4TiXmlEncoding@@@Z) 中被引用
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "public: virtual class TiXmlNode * __cdecl TiXmlComment::Clone(void)const " (?Clone@TiXmlComment@@UEBAPEAVTiXmlNode@@XZ)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual class TiXmlNode * __cdecl TiXmlComment::Clone(void)const " (?Clone@TiXmlComment@@UEBAPEAVTiXmlNode@@XZ)
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl TiXmlComment::Print(struct _iobuf *,int)const " (?Print@TiXmlComment@@UEBAXPEAU_iobuf@@H@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl TiXmlComment::Print(struct _iobuf *,int)const " (?Print@TiXmlComment@@UEBAXPEAU_iobuf@@H@Z)
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlComment::Accept(class TiXmlVisitor *)const " (?Accept@TiXmlComment@@UEBA_NPEAVTiXmlVisitor@@@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlComment::Accept(class TiXmlVisitor *)const " (?Accept@TiXmlComment@@UEBA_NPEAVTiXmlVisitor@@@Z)
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "public: virtual class TiXmlNode * __cdecl TiXmlDeclaration::Clone(void)const " (?Clone@TiXmlDeclaration@@UEBAPEAVTiXmlNode@@XZ)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual class TiXmlNode * __cdecl TiXmlDeclaration::Clone(void)const " (?Clone@TiXmlDeclaration@@UEBAPEAVTiXmlNode@@XZ)
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl TiXmlDeclaration::Print(struct _iobuf *,int,class TiXmlString *)const " (?Print@TiXmlDeclaration@@UEBAXPEAU_iobuf@@HPEAVTiXmlString@@@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl TiXmlDeclaration::Print(struct _iobuf *,int,class TiXmlString *)const " (?Print@TiXmlDeclaration@@UEBAXPEAU_iobuf@@HPEAVTiXmlString@@@Z)
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlDeclaration::Accept(class TiXmlVisitor *)const " (?Accept@TiXmlDeclaration@@UEBA_NPEAVTiXmlVisitor@@@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlDeclaration::Accept(class TiXmlVisitor *)const " (?Accept@TiXmlDeclaration@@UEBA_NPEAVTiXmlVisitor@@@Z)
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "public: virtual class TiXmlNode * __cdecl TiXmlUnknown::Clone(void)const " (?Clone@TiXmlUnknown@@UEBAPEAVTiXmlNode@@XZ)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual class TiXmlNode * __cdecl TiXmlUnknown::Clone(void)const " (?Clone@TiXmlUnknown@@UEBAPEAVTiXmlNode@@XZ)
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl TiXmlUnknown::Print(struct _iobuf *,int)const " (?Print@TiXmlUnknown@@UEBAXPEAU_iobuf@@H@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __cdecl TiXmlUnknown::Print(struct _iobuf *,int)const " (?Print@TiXmlUnknown@@UEBAXPEAU_iobuf@@H@Z)
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlUnknown::Accept(class TiXmlVisitor *)const " (?Accept@TiXmlUnknown@@UEBA_NPEAVTiXmlVisitor@@@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlUnknown::Accept(class TiXmlVisitor *)const " (?Accept@TiXmlUnknown@@UEBA_NPEAVTiXmlVisitor@@@Z)
+tinyxmlparser.obj : error LNK2001: 无法解析的外部符号 "private: static bool TiXmlBase::condenseWhiteSpace" (?condenseWhiteSpace@TiXmlBase@@0_NA)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "private: static bool TiXmlBase::condenseWhiteSpace" (?condenseWhiteSpace@TiXmlBase@@0_NA)
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl TiXmlNode::Clear(void)" (?Clear@TiXmlNode@@QEAAXXZ)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlNode const * __cdecl TiXmlNode::FirstChild(char const *)const " (?FirstChild@TiXmlNode@@QEBAPEBV1@PEBD@Z)，该符号在函数 "public: class TiXmlNode * __cdecl TiXmlNode::FirstChild(char const *)" (?FirstChild@TiXmlNode@@QEAAPEAV1@PEBD@Z) 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlNode const * __cdecl TiXmlNode::LastChild(char const *)const " (?LastChild@TiXmlNode@@QEBAPEBV1@PEBD@Z)，该符号在函数 "public: class TiXmlNode * __cdecl TiXmlNode::LastChild(char const *)" (?LastChild@TiXmlNode@@QEAAPEAV1@PEBD@Z) 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlNode const * __cdecl TiXmlNode::IterateChildren(class TiXmlNode const *)const " (?IterateChildren@TiXmlNode@@QEBAPEBV1@PEBV1@@Z)，该符号在函数 "public: class TiXmlNode * __cdecl TiXmlNode::IterateChildren(class TiXmlNode const *)" (?IterateChildren@TiXmlNode@@QEAAPEAV1@PEBV1@@Z) 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlNode * __cdecl TiXmlNode::InsertEndChild(class TiXmlNode const &)" (?InsertEndChild@TiXmlNode@@QEAAPEAV1@AEBV1@@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlNode * __cdecl TiXmlNode::InsertBeforeChild(class TiXmlNode *,class TiXmlNode const &)" (?InsertBeforeChild@TiXmlNode@@QEAAPEAV1@PEAV1@AEBV1@@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlNode * __cdecl TiXmlNode::InsertAfterChild(class TiXmlNode *,class TiXmlNode const &)" (?InsertAfterChild@TiXmlNode@@QEAAPEAV1@PEAV1@AEBV1@@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl TiXmlNode::RemoveChild(class TiXmlNode *)" (?RemoveChild@TiXmlNode@@QEAA_NPEAV1@@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlNode const * __cdecl TiXmlNode::PreviousSibling(char const *)const " (?PreviousSibling@TiXmlNode@@QEBAPEBV1@PEBD@Z)，该符号在函数 "public: class TiXmlNode * __cdecl TiXmlNode::PreviousSibling(char const *)" (?PreviousSibling@TiXmlNode@@QEAAPEAV1@PEBD@Z) 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlNode const * __cdecl TiXmlNode::NextSibling(char const *)const " (?NextSibling@TiXmlNode@@QEBAPEBV1@PEBD@Z)，该符号在函数 "public: class TiXmlNode * __cdecl TiXmlNode::NextSibling(char const *)" (?NextSibling@TiXmlNode@@QEAAPEAV1@PEBD@Z) 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlElement const * __cdecl TiXmlNode::NextSiblingElement(void)const " (?NextSiblingElement@TiXmlNode@@QEBAPEBVTiXmlElement@@XZ)，该符号在函数 "public: class TiXmlElement * __cdecl TiXmlNode::NextSiblingElement(void)" (?NextSiblingElement@TiXmlNode@@QEAAPEAVTiXmlElement@@XZ) 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlElement const * __cdecl TiXmlNode::FirstChildElement(void)const " (?FirstChildElement@TiXmlNode@@QEBAPEBVTiXmlElement@@XZ)，该符号在函数 "public: class TiXmlElement * __cdecl TiXmlNode::FirstChildElement(void)" (?FirstChildElement@TiXmlNode@@QEAAPEAVTiXmlElement@@XZ) 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlElement const * __cdecl TiXmlNode::FirstChildElement(char const *)const " (?FirstChildElement@TiXmlNode@@QEBAPEBVTiXmlElement@@PEBD@Z)，该符号在函数 "public: class TiXmlElement * __cdecl TiXmlNode::FirstChildElement(char const *)" (?FirstChildElement@TiXmlNode@@QEAAPEAVTiXmlElement@@PEBD@Z) 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl TiXmlElement::TiXmlElement(class TiXmlElement const &)" (??0TiXmlElement@@QEAA@AEBV0@@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlElement & __cdecl TiXmlElement::operator=(class TiXmlElement const &)" (??4TiXmlElement@@QEAAAEAV0@AEBV0@@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: virtual __cdecl TiXmlElement::~TiXmlElement(void)" (??1TiXmlElement@@UEAA@XZ)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: char const * __cdecl TiXmlElement::Attribute(char const *)const " (?Attribute@TiXmlElement@@QEBAPEBDPEBD@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl TiXmlElement::QueryIntAttribute(char const *,int *)const " (?QueryIntAttribute@TiXmlElement@@QEBAHPEBDPEAH@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: int __cdecl TiXmlElement::QueryDoubleAttribute(char const *,double *)const " (?QueryDoubleAttribute@TiXmlElement@@QEBAHPEBDPEAN@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl TiXmlElement::SetAttribute(char const *,char const *)" (?SetAttribute@TiXmlElement@@QEAAXPEBD0@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl TiXmlElement::SetAttribute(char const *,int)" (?SetAttribute@TiXmlElement@@QEAAXPEBDH@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl TiXmlElement::SetDoubleAttribute(char const *,double)" (?SetDoubleAttribute@TiXmlElement@@QEAAXPEBDN@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: char const * __cdecl TiXmlElement::GetText(void)const " (?GetText@TiXmlElement@@QEBAPEBDXZ)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl TiXmlComment::TiXmlComment(class TiXmlComment const &)" (??0TiXmlComment@@QEAA@AEBV0@@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlComment & __cdecl TiXmlComment::operator=(class TiXmlComment const &)" (??4TiXmlComment@@QEAAAEAV0@AEBV0@@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "protected: void __cdecl TiXmlText::CopyTo(class TiXmlText *)const " (?CopyTo@TiXmlText@@IEBAXPEAV1@@Z)，该符号在函数 "public: __cdecl TiXmlText::TiXmlText(class TiXmlText const &)" (??0TiXmlText@@QEAA@AEBV0@@Z) 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl TiXmlDeclaration::TiXmlDeclaration(class TiXmlDeclaration const &)" (??0TiXmlDeclaration@@QEAA@AEBV0@@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlDeclaration & __cdecl TiXmlDeclaration::operator=(class TiXmlDeclaration const &)" (??4TiXmlDeclaration@@QEAAAEAV0@AEBV0@@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "protected: void __cdecl TiXmlUnknown::CopyTo(class TiXmlUnknown *)const " (?CopyTo@TiXmlUnknown@@IEBAXPEAV1@@Z)，该符号在函数 "public: __cdecl TiXmlUnknown::TiXmlUnknown(class TiXmlUnknown const &)" (??0TiXmlUnknown@@QEAA@AEBV0@@Z) 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl TiXmlDocument::TiXmlDocument(char const *)" (??0TiXmlDocument@@QEAA@PEBD@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl TiXmlDocument::TiXmlDocument(class TiXmlDocument const &)" (??0TiXmlDocument@@QEAA@AEBV0@@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlDocument & __cdecl TiXmlDocument::operator=(class TiXmlDocument const &)" (??4TiXmlDocument@@QEAAAEAV0@AEBV0@@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl TiXmlDocument::LoadFile(enum TiXmlEncoding)" (?LoadFile@TiXmlDocument@@QEAA_NW4TiXmlEncoding@@@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl TiXmlDocument::SaveFile(void)const " (?SaveFile@TiXmlDocument@@QEBA_NXZ)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl TiXmlDocument::LoadFile(char const *,enum TiXmlEncoding)" (?LoadFile@TiXmlDocument@@QEAA_NPEBDW4TiXmlEncoding@@@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlHandle __cdecl TiXmlHandle::FirstChild(void)const " (?FirstChild@TiXmlHandle@@QEBA?AV1@XZ)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlHandle __cdecl TiXmlHandle::FirstChildElement(char const *)const " (?FirstChildElement@TiXmlHandle@@QEBA?AV1@PEBD@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlHandle __cdecl TiXmlHandle::Child(int)const " (?Child@TiXmlHandle@@QEBA?AV1@H@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlHandle __cdecl TiXmlHandle::ChildElement(char const *,int)const " (?ChildElement@TiXmlHandle@@QEBA?AV1@PEBDH@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2019: 无法解析的外部符号 "public: class TiXmlHandle __cdecl TiXmlHandle::ChildElement(int)const " (?ChildElement@TiXmlHandle@@QEBA?AV1@H@Z)，该符号在函数 main 中被引用
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlPrinter::VisitEnter(class TiXmlDocument const &)" (?VisitEnter@TiXmlPrinter@@UEAA_NAEBVTiXmlDocument@@@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlPrinter::VisitExit(class TiXmlDocument const &)" (?VisitExit@TiXmlPrinter@@UEAA_NAEBVTiXmlDocument@@@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlPrinter::VisitEnter(class TiXmlElement const &,class TiXmlAttribute const *)" (?VisitEnter@TiXmlPrinter@@UEAA_NAEBVTiXmlElement@@PEBVTiXmlAttribute@@@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlPrinter::VisitExit(class TiXmlElement const &)" (?VisitExit@TiXmlPrinter@@UEAA_NAEBVTiXmlElement@@@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlPrinter::Visit(class TiXmlDeclaration const &)" (?Visit@TiXmlPrinter@@UEAA_NAEBVTiXmlDeclaration@@@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlPrinter::Visit(class TiXmlText const &)" (?Visit@TiXmlPrinter@@UEAA_NAEBVTiXmlText@@@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlPrinter::Visit(class TiXmlComment const &)" (?Visit@TiXmlPrinter@@UEAA_NAEBVTiXmlComment@@@Z)
+xmltest.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __cdecl TiXmlPrinter::Visit(class TiXmlUnknown const &)" (?Visit@TiXmlPrinter@@UEAA_NAEBVTiXmlUnknown@@@Z)
+C:\Users\YOUNA\Documents\Visual Studio 2015\Projects\car_logo_identify\x64\Debug\car_logo_identify.exe : fatal error LNK1120: 74 个无法解析的外部命令

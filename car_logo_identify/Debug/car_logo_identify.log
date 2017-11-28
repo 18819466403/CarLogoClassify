@@ -1,0 +1,17 @@
+﻿  main.cpp
+c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\main.cpp(5): error C4996: 'Json::Reader': Use CharReader and CharReaderBuilder instead
+  c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\json\reader.h(35): note: 参见“Json::Reader”的声明
+c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\main.cpp(7): error C4996: 'Json::Reader::parse': Use CharReader and CharReaderBuilder instead
+  c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\json\reader.h(77): note: 参见“Json::Reader::parse”的声明
+c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\main.cpp(10): error C4996: 'Json::Reader::nodes_': Use CharReader and CharReaderBuilder instead
+  c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\json\reader.h(237): note: 参见“Json::Reader::nodes_”的声明
+  c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\main.cpp(10): note: 此诊断出现在编译器生成的函数“Json::Reader::~Reader(void)”中
+c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\main.cpp(10): error C4996: 'Json::Reader::errors_': Use CharReader and CharReaderBuilder instead
+  c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\json\reader.h(238): note: 参见“Json::Reader::errors_”的声明
+  c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\main.cpp(10): note: 此诊断出现在编译器生成的函数“Json::Reader::~Reader(void)”中
+c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\main.cpp(10): error C4996: 'Json::Reader::document_': Use CharReader and CharReaderBuilder instead
+  c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\json\reader.h(239): note: 参见“Json::Reader::document_”的声明
+  c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\main.cpp(10): note: 此诊断出现在编译器生成的函数“Json::Reader::~Reader(void)”中
+c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\main.cpp(10): error C4996: 'Json::Reader::commentsBefore_': Use CharReader and CharReaderBuilder instead
+  c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\json\reader.h(245): note: 参见“Json::Reader::commentsBefore_”的声明
+  c:\users\youna\documents\visual studio 2015\projects\car_logo_identify\car_logo_identify\main.cpp(10): note: 此诊断出现在编译器生成的函数“Json::Reader::~Reader(void)”中
